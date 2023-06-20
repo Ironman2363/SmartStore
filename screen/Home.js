@@ -89,17 +89,29 @@ const Home = ({ navigation }) => {
             alignItems: "center",
           }}
         >
-          <Icon
-            name="search"
-            size={22}
-            color="black"
-            style={{ opacity: 0.5 }}
-          />
-          <TextInput
-            placeholder="Tìm kiếm"
-            placeholderTextColor="black"
-            style={{ width: "75%", color: "black", opacity: 0.5 }}
-          />
+          <TouchableOpacity
+            style={{ flexDirection: "row", alignItems: "center" }}
+          >
+            <Icon
+              name="search"
+              size={22}
+              color="black"
+              style={{ opacity: 0.5 }}
+            />
+            <Text
+              placeholder="Tìm kiếm"
+              placeholderTextColor="black"
+              style={{
+                width: "70%",
+                color: "black",
+                opacity: 0.5,
+                marginStart: 10,
+              }}
+            >
+              Tìm kiếm
+            </Text>
+          </TouchableOpacity>
+
           <TouchableOpacity
             style={{
               width: 50,
