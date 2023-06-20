@@ -102,7 +102,7 @@ const Home = ({ navigation }) => {
               placeholder="Tìm kiếm"
               placeholderTextColor="black"
               style={{
-                width: "70%",
+                width: "75%",
                 color: "black",
                 opacity: 0.5,
                 marginStart: 10,
